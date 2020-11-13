@@ -1,2 +1,6 @@
 # LAB02-IB-AV-AO
-Laboratorio Grupal número 2
+Miembros:
+Alejandro Vidal Vera Catashunga
+Código: 
+20152246G
+ 
