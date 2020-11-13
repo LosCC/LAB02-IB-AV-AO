@@ -1,0 +1,1482 @@
+.titulo{
+    font-size: 20px;
+    font-style: oblique;
+    font-weight: 100;
+    flood-color: darkblue;    
+}
+
+header{
+    width: 100%;
+    background: #4e94ab;
+    margin: 10px;
+}
+
+.menu ul {
+    margin: 0;
+    list-style: none;
+    padding: 0;
+    display: flex;
+    justify-content: flex-end;
+    
+}
+.meni li {
+    border-right: 1px solid #fff;
+}
+.menu li:hover{
+ background: rgba(0,0,0,0.3);
+    
+}
+
+.menu li a {
+    display: block;
+    padding: 15px 20px;
+    color :#fff;
+    text-decoration: none;
+    
+}
+.container{
+    margin: 0 auto;
+    width: 90%;
+}
+.flex{
+    display: flex;
+    flex-wrap: wrap;
+}
+.text{
+    text-align: center;
+    font-size: 12px;
+}
+.precio{
+    font-size: 25px;
+    color: black;
+    text-align: right;
+    padding: 0px;
+    margin: 0px;
+}
+.columna{
+    background: #ffffff;
+    color: #333;
+    border: 1px solid #333;
+    margin: 0px auto;
+    padding: 10px;
+    border-radius: 5px;   
+    box-shadow: 10px 10px 5px #888;
+    width: 40%;
+    box-sizing: border-box;
+    margin-bottom: 20px;
+    
+}
+.imagen{
+    border: 1px solid #333;
+    width: 100px;
+    height: 75px;
+}
+.boton{
+    background: rgb(190, 21, 2);
+    display: block;
+    padding: 10px;
+    color: #ffffff;
+    text-decoration: none;
+    border-radius: 3px;
+    margin-bottom: 0px;
+}
+.boton:hover{
+    background: rgb(42, 83, 216);
+}
+
+p{
+	justify-content: center;
+	text-align: center;
+	display: block;
+}
+
+.p2{
+	justify-content: center;
+	text-align: center;
+	display: block;
+	font-size: 30px;
+	line-height: 60px;
+	font-style: italic;
+}
+
+.img-esp{
+	width: 280px;
+	height: 320px;
+	float: left;
+	margin-right: 20px;
+	margin-top:  15px;
+}
+
+h2 {
+	clear: both;
+  }
+
+
+
+
+
+
+/*
+ <!DOCTYPE html>
+ <html>
+ <head>
+ 	<title>Aprendiendo CSS con @Soy Dalto</title>
+ 	<link rel="stylesheet" type="text/css" href="estilo.css">
+ 	<link rel="stylesheet" type="text/css" href="normalize.css">
+ 	<link href="https://fonts.googleapis.com/css2?family=Vollkorn&display=swap" rel="stylesheet">
+ 	<meta name="viewport" content="width=device-width,initial-scale=1.0">
+ 	<script src="https://kit.fontawesome.com/62ea397d3a.js" crossorigin="anonymous"></script>
+ </head>
+ <body>
+ 	<p>
+ 		lo
+ 	</p>
+ 	<div class="container"></div>
+ 	<div class="container-2"></div>
+ </body>
+ </html>
+
+* {
+  font-family: 'Sen', sans-serif;
+  font-weight: 100;
+}
+
+:root{
+	--color-rojo-claro: #f44;
+	--color-azul-claro: #66f;
+}
+
+div {
+	padding: 30px;
+	height: 150px;
+	width: 150px;
+	margin: 30px;
+}
+
+p {
+	--color-azul-claro: #000;
+	height: 100px;
+	width: 100px;
+	background: var(--color-azul-claro);
+}
+
+.container {
+	background: var(--color-rojo-claro);
+	/*background: red;
+}
+
+.container-2 {
+	background: var(--color-azul-claro);
+	/*background: blue;
+}
+
+
+/*
+.container {
+	padding: 20px 5px;
+	background: #86f;
+	width: 400px;
+	height: 400px;
+	margin: 40px;
+	background-image: url(https://webgenio.com/wp-content/uploads1/2011/12/leon-hd-wallpapers.jpg);
+	background-size: cover;
+	background-repeat: no-repeat;
+	background-origin: content-box;
+	border: 10px solid transparent;
+}
+
+
+/*
+* {
+  font-family: 'Sen', sans-serif;
+  font-weight: 100;
+}
+
+.container {
+	padding: 20px 5px;
+	background: #86f;
+}
+
+.caja {
+	background: #025;
+	height: 80px;
+	width: 80px;
+	margin: 20px;
+	display: flex;
+	color: #fff;
+	/*transform: scale(1,1);
+	transition: transform 1s
+	transform: translate();
+	/*clip-path: polygon(55% 19%, 88% 19%, 82% 100%, 18% 100%, 66% 85%);
+}
+
+.caja:hover {
+	transform: scaleX(1.8) translate(50px);
+}
+
+b {
+	margin: auto; 
+	/*clip-path: polygon(55% 0%, 0% 100%, 100% 100%);*/
+
+/*
+ <!DOCTYPE html>
+ <html>
+ <head>
+ 	<title>Aprendiendo CSS con @Soy Dalto</title>
+ 	<link rel="stylesheet" type="text/css" href="estilo.css">
+ 	<link rel="stylesheet" type="text/css" href="normalize.css">
+ 	<link href="https://fonts.googleapis.com/css2?family=Vollkorn&display=swap" rel="stylesheet">
+ 	<meta name="viewport" content="width=device-width,initial-scale=1.0">
+ 	<script src="https://kit.fontawesome.com/62ea397d3a.js" crossorigin="anonymous"></script>
+ </head>
+ <body>
+ 	<div class="container">
+ 		<div class="caja"><b>HOLA</b></div>
+ 	</div>
+ </body>
+ </html>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/*
+* {
+  font-family: 'Sen', sans-serif;
+  font-weight: 100;
+}
+
+.container {
+	padding: 20px 5px;
+	background: #86f;
+}
+
+.caja {
+	background: #025;
+	height: 80px;
+	width: 80px;
+	margin: 20px;
+	position: relative;
+	animation-name: desplazarse;
+	animation-duration: 2s;
+	animation-iteration-count: infinite;
+	animation-direction: alternate;
+	animation-fill-mode: both;
+	animation-delay: 1s;
+	animation-timing-function: cubic-bezier(0.4,0.23,0.76,1.11);
+}
+
+@keyframes desplazarse {
+	0%{
+		left: 0;
+		background: #025;
+	}
+
+	50% {
+		background: red;
+	}
+
+	100% {
+		left: 80%;
+		background: green;
+	}
+}
+
+
+/*
+ <!DOCTYPE html>
+ <html>
+ <head>
+ 	<title>Aprendiendo CSS con @Soy Dalto</title>
+ 	<link rel="stylesheet" type="text/css" href="estilo.css">
+ 	<link rel="stylesheet" type="text/css" href="normalize.css">
+ 	<link href="https://fonts.googleapis.com/css2?family=Vollkorn&display=swap" rel="stylesheet">
+ 	<meta name="viewport" content="width=device-width,initial-scale=1.0">
+ 	<script src="https://kit.fontawesome.com/62ea397d3a.js" crossorigin="anonymous"></script>
+ </head>
+ <body>
+ 	<div class="container">
+ 		<div class="caja"></footer>
+ 	</div>
+ </body>
+ </html>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/*
+/*
+transition-property: left, background;
+transition-duration: 3s 3s;
+position: relative;
+left: 0;
+position: relative;
+
+
+
+/*
+.content {
+	display: flex;
+	flex-direction: column;
+}
+
+.header, .main, .aside, .footer {
+	padding: 20px;
+}
+
+.header {
+	background: lightblue;
+	flex-basis: 60px;
+}
+
+.main {
+	background: slateblue;
+	flex-basis: 300px;
+	flex-grow: 2;
+	flex-shrink: 0;
+}
+
+.aside {
+	background: darkslateblue;
+	flex-basis: 300px;
+	flex-grow: 2;
+	flex-shrink: 0;
+}
+
+.footer {
+	background: violet;
+	flex-grow: 1;
+}
+
+@media screen and (min-width: 700px) {
+	.content {
+		display: grid;
+		grid-template-rows: 80px 1fr 1fr 1fr 1fr 80px;
+		grid-template-columns: repeat(3,1fr);
+	}
+
+	.header {
+		grid-column: 1 / span 3;
+	}
+
+	.main {
+		grid-row: 2 / 6;
+		grid-column: 1 / span 2;
+	}
+
+	.header {
+		grid-row: 2 / 6;
+	}
+
+	.footer {
+		grid-row: 6 / 7;
+		grid-column: 1 / span 3;
+	}
+
+	/*
+	.content {
+		flex-direction: row;
+		flex-wrap: wrap;
+	}
+
+	.main, .aside {
+		height: 530px;
+	}
+
+	.main {
+		flex-grow: 4;
+	}
+
+	.aside {
+		flex-grow: 1;
+	}
+
+	.header {
+		flex-basis: 100%;
+		max-height: 60px;
+	}
+
+	.footer {
+		flex-basis: 100%;
+	}
+}
+
+
+/*
+ <!DOCTYPE html>
+ <html>
+ <head>
+ 	<title>Aprendiendo CSS con @Soy Dalto</title>
+ 	<link rel="stylesheet" type="text/css" href="estilo.css">
+ 	<link rel="stylesheet" type="text/css" href="normalize.css">
+ 	<link href="https://fonts.googleapis.com/css2?family=Vollkorn&display=swap" rel="stylesheet">
+ 	<meta name="viewport" content="width=device-width,initial-scale=1.0">
+ 	<script src="https://kit.fontawesome.com/62ea397d3a.js" crossorigin="anonymous"></script>
+ </head>
+ <body>
+ 	<div class="content">
+ 		<header class="header">Header</header>
+ 		<article class="main">Main</article>
+ 		<aside class="aside">Aside</aside>
+ 		<footer class="footer">Footer</footer>
+ 	</div>
+ </body>
+ </html>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/*
+ <!DOCTYPE html>
+ <html>
+ <head>
+ 	<title>Aprendiendo CSS con @Soy Dalto</title>
+ 	<link rel="stylesheet" type="text/css" href="estilo.css">
+ 	<link rel="stylesheet" type="text/css" href="normalize.css">
+ 	<link href="https://fonts.googleapis.com/css2?family=Vollkorn&display=swap" rel="stylesheet">
+ 	<meta name="viewport" content="width=device-width,initial-scale=1.0">
+ 	<script src="https://kit.fontawesome.com/62ea397d3a.js" crossorigin="anonymous"></script>
+ </head>
+ <body>
+ 	<div class="grid-container">
+ 		<div class="grid-item grid-header">
+ 			<ul>
+ 				<li><a href="a">Enlace</a></li>
+ 				<li><a href="a">Enlace</a></li>
+ 				<li><a href="a">Enlace</a></li>
+ 				<li><a href="a">Enlace</a></li>
+ 			</ul>
+ 		</div>
+ 		<div class="grid-item grid-main">Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
+ 		tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
+ 		quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo
+ 		consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse
+ 		cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non
+ 		proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</div>
+ 		<div class="grid-item grid-aside">Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
+ 		tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
+ 		quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo
+ 		consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse
+ 		cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non
+ 		proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</div>
+ 		<div class="grid-item grid-footer">Footer</div>
+ 	</div>
+ </body>
+ </html>
+
+body {
+	background: radial-gradient(circle,#fff,#bbb)
+}
+
+.grid-container {
+	background: #444;
+	margin: 10px;
+	display: grid;
+	grid-template-areas: 
+	"header header header"
+	"aside main main"
+	"aside main main"
+	"aside main main"
+	"aside main main"
+	"aside main main"
+	"aside main main"
+	"footer footer footer";
+	grid-template-rows: repeat(auto-fill, 1fr);
+	height: 92vh;
+	border: 5px solid #000;
+}
+
+.grid-item {
+	padding: 20px;
+}
+
+ul li {
+	display: inline-block;
+}
+
+.grid-footer {
+	background-color: #6f9;
+	grid-area: footer;
+}
+
+.grid-header {
+	background-color: #f96;
+	grid-area: header;
+}
+
+.grid-main {
+	background-color: #96f;
+	grid-area: main;
+}
+
+.grid-aside {
+	background-color: #888;
+	grid-area: aside;
+}
+
+/*Bastante útil
+* {
+  font-family: 'Sen', sans-serif;
+  font-weight: 100;
+}
+
+.div-responsive {
+	background: #c95;
+}
+
+@media screen and (min-width: 400px) AND (max-width: 650px) {
+	.div-responsive {
+		background: red;
+		padding: 10px;
+	}
+}
+
+@media screen and (min-width: 650px) AND (max-width: 800px) {
+	.div-responsive {
+		background: green;
+		font-size: 50px;
+	}
+}
+
+@media screen and (min-width: 800px) AND (max-width: 1200px) {
+	.div-responsive {
+		background: orange;
+		margin: 50px;
+	}
+}
+
+@media screen and (min-width: 1200px) {
+	.div-responsive {
+		background: #000;
+		color: #fff;
+	}
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/*
+ <!DOCTYPE html>
+ <html>
+ <head>
+ 	<title>Aprendiendo CSS con @Soy Dalto</title>
+ 	<link rel="stylesheet" type="text/css" href="estilo.css">
+ 	<link rel="stylesheet" type="text/css" href="normalize.css">
+ 	<link href="https://fonts.googleapis.com/css2?family=Vollkorn&display=swap" rel="stylesheet">
+ 	<meta name="viewport" content="width=device-width,initial-scale=1.0">
+ 	<script src="https://kit.fontawesome.com/62ea397d3a.js" crossorigin="anonymous"></script>
+ </head>
+ <body>
+ 	<div class="grid-container">
+ 		<div class="grid-item">1</div>
+ 		<div class="grid-item">2</div>
+ 		<div class="grid-item">3</div>
+ 		<div class="grid-item">4</div>
+ 		<div class="grid-item">5</div>
+ 		<div class="grid-item">6</div>
+ 		<div class="grid-item">7</div>
+ 		<div class="grid-item">8</div>
+ 		<div class="grid-item">9</div>
+ 	</div>
+ </body>
+ </html>
+
+body {
+	background: radial-gradient(circle,#fff,#bbb)
+	padding: 15px;
+	display: flex;
+}
+
+.grid-container {
+	display: grid;
+	grid-template-columns: repeat(3,minmax(120px, 1fr));
+	grid-template-rows: repeat(3, 200px);
+	grid-auto-rows: 1fr;
+	grid-auto-columns: 1fr;
+	border: 3px solid #000;
+	background-color: #333;
+	grid-auto-flow: dense;
+}
+
+.grid-item {
+	border: 1px solid #000;
+	background-color: #999;
+	font-size: 30px;
+	padding: 50px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/*
+.grid-container {
+	display: grid;
+	grid-template-columns: 150px 150px 150px 1fr;
+	grid-template-rows: 150px 150px 150px;
+	border: 3px solid #000;
+	background-color: #333;
+}
+
+.grid-item {
+	border: 1px solid #000;
+	background-color: #999;
+}
+
+
+/*
+.grid-item:first-child {
+	background: #900;
+	grid-column: 1 / 3;
+	grid-row: 1 / 3;
+}
+
+.grid-item:nth-child(2) {
+	background: #090;
+	grid-column: 3 / 5;
+	grid-row: 1 / 3;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/*
+body {
+	background-color: #000;
+}
+
+.flex-container {
+	display: flex;
+	align-items: center;
+	flex-wrap: wrap;
+	justify-content: center;
+	background: #222;
+	margin: 50px 50px;
+	padding: 20px;
+	border: 14px solid #000;
+	outline: 3px solid #094;
+}
+
+.form {
+	min-width: 400px;
+	flex: 1;
+	text-align: center;
+	padding: 30px;
+	order: 5;
+}
+
+.form-input {
+	width: 100%;
+	padding: 7px;
+	margin: 6px 0;
+	border: none;
+	border-bottom: 3px solid #094;
+	background: transparent;
+	color: #fff;
+}
+
+.form__input:focus {
+	background: linear-gradient(to bottom, transparent, #111);
+	outline: none;
+	border-bottom: 3px solid #5f9;
+}
+
+.form textarea {
+	min-height: 140px;
+	resize: none;
+}
+
+.form-img {
+	flex: 1;
+	display: flex;
+	padding: 10px;
+	min-width: 300px;
+	max-width: 400px;
+	order: 2;
+}
+
+.form-img div {
+	padding: 10px;
+}
+
+.img-container {
+	margin: auto;
+}
+
+.img-container div {
+	background-color: #fff;
+	border-radius: 50%;
+	text-align: center;
+	padding: 40px;
+}
+
+.form-img img{
+	width: 100%;
+	margin: auto;
+}
+
+.form input[type="submit"] {
+	background-color: #094;
+	border-bottom: none;
+	padding: 12px;
+}
+
+.form input[type="submit"]:hover {
+	background-color: #111;
+	border-bottom: none;
+	padding: 12px;
+}
+
+.form input[type="submit"]:focus {
+	background: #111;
+}
+
+/*
+.form input[type="submit"]:active {
+	background: linear-gradient(to bottom, #072, #050);
+}
+
+/*
+ <!DOCTYPE html>
+ <html>
+ <head>
+ 	<title>Aprendiendo CSS con @Soy Dalto</title>
+ 	<link rel="stylesheet" type="text/css" href="estilo.css">
+ 	<link rel="stylesheet" type="text/css" href="normalize.css">
+ 	<link href="https://fonts.googleapis.com/css2?family=Vollkorn&display=swap" rel="stylesheet">
+ 	<meta name="viewport" content="width=device-width,initial-scale=1.0">
+ 	<script src="https://kit.fontawesome.com/62ea397d3a.js" crossorigin="anonymous"></script>
+ </head>
+ <body>
+ 	<div class="flex-container">
+ 		<form class="form">
+ 			<div class="form__section">
+ 				<input type="text" class="form__input" placeholder="Escriba su Email">
+ 			</div>
+ 			<div class="form__section">
+ 				<input type="email" class="form__input" placeholder="Escriba el asunto">
+ 			</div>
+ 			<div class="form__section">
+ 				<textarea class="form__input" placeholder="Escriba su mensaje"></textarea>
+ 			</div>
+ 			<div class="form__section">
+ 				<input type="submit" class="form__input">
+ 			</div>
+ 		</form>
+ 		<div class="form-img">
+ 			<div class="img-container">
+ 				<div>
+ 					<img src="https://cdn4.iconfinder.com/data/icons/ionicons/512/icon-email-512.png">
+ 				</div>
+ 			</div>
+ 		</div>
+ 	</div>
+ </body>
+ </html>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/*
+.flex-container {
+	display: flex;
+	height: 100vh;
+}
+
+.flex-item {
+	background-color: #248;
+	color: #fff;
+	min-width: 150px;
+	text-align: center;
+	height: 100px;
+	flex-grow: 1;
+	width: 300px;
+}
+
+.orange {
+	background: orange;
+	flex-basis: 350px;
+	flex-shrink: 0;
+}
+
+.green {
+	background: green;
+}
+
+
+
+
+/*
+ <!DOCTYPE html>
+ <html>
+ <head>
+ 	<title>Aprendiendo CSS con @Soy Dalto</title>
+ 	<link rel="stylesheet" type="text/css" href="estilo.css">
+ 	<link rel="stylesheet" type="text/css" href="normalize.css">
+ 	<link href="https://fonts.googleapis.com/css2?family=Vollkorn&display=swap" rel="stylesheet">
+ 	<meta name="viewport" content="width=device-width,initial-scale=1.0">
+ 	<script src="https://kit.fontawesome.com/62ea397d3a.js" crossorigin="anonymous"></script>
+ </head>
+ <body>
+ 	<div class="flex-container">
+ 		<div class="flex-item orange">Caja Flexible</div>
+ 		<div class="flex-item">Caja Flexible</div>
+ 		<div class="flex-item green">Caja Flexible</div>
+ 	</div>
+ </body>
+ </html>
+
+
+/*
+ <!DOCTYPE html>
+ <html>
+ <head>
+ 	<title>Aprendiendo CSS con @Soy Dalto</title>
+ 	<link rel="stylesheet" type="text/css" href="estilo.css">
+ 	<link rel="stylesheet" type="text/css" href="normalize.css">
+ 	<link href="https://fonts.googleapis.com/css2?family=Vollkorn&display=swap" rel="stylesheet">
+ 	<meta name="viewport" content="width=device-width,initial-scale=1.0">
+ 	<script src="https://kit.fontawesome.com/62ea397d3a.js" crossorigin="anonymous"></script>
+ </head>
+ <body>
+ 	<div class="flex-container">
+ 		<div class="flex-item">
+ 		Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
+ 		tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
+ 		quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo
+ 		consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse
+ 		cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non
+ 		proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
+ 		</div>
+ 		<div class="flex-item">
+ 			Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
+ 			tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
+ 			quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo
+ 			consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse
+ 			cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non
+ 			proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
+ 		</div>
+ 	</div>
+ </body>
+ </html>
+
+
+
+
+
+
+
+
+
+/*
+.nav__responsive-ul {
+	display: none;
+}
+
+.nav {
+	background-color: darkslateblue;
+}
+
+.nav__li {
+	display: inline-block;
+	padding: 12px;
+	color: #fff;
+}
+
+.nav__li:hover > a {
+	color: #bbb;
+}
+
+.nav__li:hover {
+	color: #bbb;
+}
+
+.nav__li a {
+	color: #fff;
+	text-decoration: none;
+}
+
+.nav__li i {
+	box-sizing: border-box;
+	text-align: right;
+	margin-right: 5px;
+}
+
+.nav__responsive-button-container {
+	position: absolute;
+	width: 100%;
+	font-size: 25px;
+	background-color: #69c;
+	margin-top: -64px;
+	z-index: 100;
+}
+
+.nav__responsive-button {
+	padding: 6px 20px;
+	text-align: right;
+	width: 100%;
+}
+
+@media only screen and (max-width: 500px) {
+	.nav__ul {
+		display: none;
+	}
+	
+	.nav {
+		height: 37px;
+		width: 100%;
+	}
+
+	.nav__responsive-ul {
+		display: block;
+		position: absolute;
+		width: 100%;
+		margin-top: 37px;
+		padding-top: 27px;
+		height: 37px;
+	}
+
+	.nav__li-container {
+		position: relative;
+		top: -1000%;
+		height: calc(100vh - 64px);
+        background: #9bf;
+        transition: all 1s;
+        z-index: 1;
+        width: 75%;
+        padding-top: 27px;
+	}
+
+	.nav__responsive-li {
+		width: 100%;
+		padding: 9px 20px;
+	}
+
+	.nav__responsive-li i {
+		box-sizing: border-box;
+		text-align: center;
+		margin-right: 5px;
+		width: 30px;
+		color: #016;
+	}
+
+	.nav__responsive-li a {
+		color: #016;
+		text-decoration: none;
+	}
+
+	.nav__responsive-ul:hover > .nav__li-container {
+		top: -27px;
+	}
+}
+
+
+
+/*
+ <!DOCTYPE html>
+ <html>
+ <head>
+ 	<title>Aprendiendo CSS con @Soy Dalto</title>
+ 	<link rel="stylesheet" type="text/css" href="estilo.css">
+ 	<link rel="stylesheet" type="text/css" href="normalize.css">
+ 	<link href="https://fonts.googleapis.com/css2?family=Vollkorn&display=swap" rel="stylesheet">
+ 	<meta name="viewport" content="width=device-width,initial-scale=1.0">
+ 	<script src="https://kit.fontawesome.com/62ea397d3a.js" crossorigin="anonymous"></script>
+ </head>
+ <body>
+ <header>
+ 	<nav class="nav">
+ 		<ul class="nav__ul">
+ 			<li class="nav__li"><i class="fas fa-home"></i><a href="a">Inicio</a></li>
+ 			<li class="nav__li"><i class="fas fa-user-friends"></i><a href="a">Sobre nosotros</a></li>
+ 			<li class="nav__li"><i class="fas fa-dollar-sign"></i><a href="a">Gana dinero</a></li>
+ 			<li class="nav__li"><i class="fas fa-question-circle"></i><a href="a">Ayuda</a></li>
+ 		</ul>
+ 		<ul class="nav__responsive-ul">
+ 			<div class="nav__responsive-button-container">
+ 			<div class="nav__responsive-button fas fa-bars"></div>
+ 			</div>
+ 			<div class="nav__li-container">
+ 			<li class="nav__responsive-li"><i class="fas fa-home"></i><a href="a">Inicio</a></li>
+ 			<li class="nav__responsive-li"><i class="fas fa-user-friends"></i><a href="a">Sobre nosotros</a></li>
+ 			<li class="nav__responsive-li"><i class="fas fa-dollar-sign"></i><a href="a">Gana dinero</a></li>
+ 			<li class="nav__responsive-li"><i class="fas fa-question-circle"></i><a href="a">Ayuda</a></li>
+ 			</div>
+ 		</ul>
+ 	</nav>
+ </header>
+ </body>
+ </html>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/*
+h1 {
+	font-size: 24px;
+}
+
+.caja2 {
+	background: #bbb
+}
+
+@media only screen and (max-width: 800px) {
+
+div {
+	display: block;
+	width: 100%;
+}
+
+h1 {
+    font-size: 20px !important
+}
+
+}
+
+
+/*
+<!DOCTYPE html>
+ <html>
+ <head>
+ 	<title>Aprendiendo CSS con @Soy Dalto</title>
+ 	<link rel="stylesheet" type="text/css" href="estilo.css">
+ 	<link rel="stylesheet" type="text/css" href="normalize.css">
+ 	<link href="https://fonts.googleapis.com/css2?family=Vollkorn&display=swap" rel="stylesheet">
+ 	<link name="viewport" content="width=device-width,initial-scale=1.0">
+ </head>
+ <body>
+ 	<div class="caja1">
+ 		<h1>Este es el título de la plataforma</h1>
+ 		<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
+ 		tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
+ 		quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo
+ 		consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse
+ 		cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non
+ 		proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
+ 	</div>
+ 	<div class="caja2">
+ 		<h2>Este es el título de la plataforma</h1>
+ 		<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
+ 		tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
+ 		quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo
+ 		consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse
+ 		cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non
+ 		proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
+ 	</div>
+ </body>
+ </html>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/*
+a:link {
+	color: red;
+}
+
+a:visited {
+	color: violet;
+}
+
+/*
+.caja1 {
+	margin: 30px;
+	display: block;
+}
+/*
+.caja1 {
+	height: 200px;
+	width: 200px;
+	background: slateblue;
+}
+
+.caja1:hover {
+	background: darkslateblue;
+}
+
+/*
+ <div class="caja1">
+ 	Div de prueba
+ </div>
+
+form {
+	margin: 100px auto;
+	display: block;
+	background-color: #666;
+	padding: 100px 10px;
+	width: 50%;
+	text-align: center;
+}
+
+p {
+	padding: 6px;
+	width: 100%;
+}
+
+p::before {
+	content: "me suscribí";
+	color: #fff;
+}
+
+p::after {
+	content: "todo tendencias";
+	color: red;
+	background: #614;
+}
+/*
+input {
+	padding: 6px;
+	width: 100%;
+}
+
+
+/*<form>
+	
+	<input type="text" name="">
+
+</form>
+
+
+
+
+
+
+
+
+
+
+
+/*
+.texto {
+	padding: 20px;
+}
+
+.texto::first-line {
+	color: blue;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/*
+b {
+	width: 150px;
+	height: 150px;
+	margin: 20px;
+	border: 10px solid red;
+	background: yellow;
+	height: 300px;
+	width: 300px;
+	display: inline-block;
+}
+/*
+div {
+	/*width: 120px;
+	height: 120px;
+	display: block;
+	background: green;
+	position: absolute;
+
+}
+
+div div {
+	height: 100px;
+	width: 100px;
+	background: yellow;
+}
+
+.contenedor {
+    position: relative;
+    border: 4px solid red;
+    margin: 50px auto;
+    height: 450px;
+    width: 450px;
+    margin-left: 100px;
+    margin-top: 50px;
+}
+
+.caja1 {
+	/*right: 0;
+	bottom: 0;
+	/*background-color: red;
+	/*width: 200px;
+	height: 200px;
+	background: red;
+	margin: auto;
+	border: 10px solid blue;
+	box-sizing: content-box;
+}
+
+.caja2 {
+	right: 0;
+	/*background-color: green;
+}
+
+.caja3 {
+	right: 0;
+	bottom: 0;
+	/*background-color: blue;
+}
+
+.caja4 {
+	bottom: 0;
+	/*background-color: yellow;
+}
+
+.caja5 {
+    /*margin: 171px;
+	bottom: 0;
+	left: 0;
+	top: 0;
+	right: 0;
+	margin: auto;
+	/*background-color: yellow;
+}
+
+/*
+h2 {
+	background-color: red;
+	display: inline-block;
+	padding: 100px;
+    box-sizing: border-box;
+    text-align: center;
+    margin: 20px 10px;
+    border-radius: 2em;
+    border: 10px outset gray;
+    box-shadow: 30px 20px 10px 10px #000, 30px 20px 10px 10px #000, 30px 20px 10px 10px #000;
+    text-shadow: 2px 2px 7px #fff, 2px 2px 7px #fff, 2px 2px 7px #fff;
+    transform: rotate(-45deg); 
+}
+
+/*
+.contact-form {
+	font-size: 25px;
+}
+
+.contact-form__h2 {
+	font-size: 5 em;
+	color: red;
+}*/
