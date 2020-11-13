@@ -1,5 +1,7 @@
-## LAB02-IB-AV-AO
-# Miembros:
+## LAB02-IB-AV-AO ##
+
+# Miembros: #
+
 Alejandro Vidal Vera Catashunga
 Código: 20152246G
 Israel Danilo Blas Salas
